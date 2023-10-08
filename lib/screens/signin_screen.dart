@@ -40,7 +40,7 @@ class _SignInScreenState extends State<SignInScreen> {
                 const SizedBox(
                   height: 30,
                 ),
-                reusableTextField("Enter UserName", Icons.person_outline, false,
+                reusableTextField("Enter email", Icons.person_outline, false,
                     _emailTextController),
                 const SizedBox(
                   height: 20,
@@ -50,6 +50,7 @@ class _SignInScreenState extends State<SignInScreen> {
                 const SizedBox(
                   height: 5,
                 ),
+                const Text("PAR ABAL KHASSIM TRAORE"),
                 forgetPassword(context),
                 firebaseUIButton(context, "Sign In", () {
                   FirebaseAuth.instance

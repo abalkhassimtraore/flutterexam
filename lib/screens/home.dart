@@ -49,9 +49,6 @@ class HomeState extends State<Home> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  buildTextTitleVariation1('Springy Salads'),
-                  buildTextSubTitleVariation1(
-                      'Healthy and nutritious food recipes'),
                   const SizedBox(
                     height: 32,
                   ),
